@@ -5,10 +5,14 @@ gem "mongoid", github: "mongoid/mongoid"
 gem "sass-rails", "~> 4.0.0"
 gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.0.0"
-gem "therubyracer", platforms: :ruby
+
+gem "libv8", "~> 3.11.8.12"
+gem 'pg'
+#gem "therubyracer", platforms: :ruby
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder", "~> 1.2"
+#libv8 -v 3.11.8.17 -- --with-system-v8
 group :development do
   gem "guard-rspec"
   gem "pry"

@@ -8,9 +8,9 @@
 
 admin = User.new(
   email: 'admin@example.com',
-  first_name: 'Sample', 
-  last_name: 'User', 
-  roles: ['admin'], 
+  first_name: 'Sample',
+  last_name: 'User',
+  roles: ['admin'],
   password: 'administrator',
   password_confirmation: 'administrator'
 )
